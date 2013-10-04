@@ -1,0 +1,282 @@
+/*
+@link http://codex.wordpress.org/Child_Themes
+
+Theme Name:     job-shuttle (NA-Basic Child)
+Theme URI:      http://www.na-media.com/
+Description:    Child theme for the NA-Basic theme 
+Author:         NA-Media
+Author URI:     http://www.na-media.com/
+Template:       nabasic
+Version:        0.1
+*/
+
+/* job-shuttle altered layout */
+@media (min-width: 768px) {
+
+
+
+}
+@media (max-width: 767px) {
+
+
+
+}
+
+/* events */
+@media all {
+
+.event-list p a img {
+border: 1px solid #08c;
+}
+.event-list p a:hover img,
+.event-list p a:focus img {
+border-color: #005580;
+}
+
+}
+@media (min-width: 768px) {
+
+
+
+}
+@media (max-width: 767px) {
+
+
+}
+
+/* eventlist home */
+@media all {
+
+
+
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+/* footer */
+@media all {
+
+.footer-area {
+}
+.footer-area ul {
+list-style: none;
+text-align: center;
+margin: 0;
+font-size: 1.2em;
+}
+.footer-area ul li {
+display: inline-block;
+}
+.footer-area ul li a {
+padding: 0 1em;
+line-height: 49px;
+border-right: 2px solid #525252;
+}
+.footer-area ul li.last a {
+border-right:none;
+}
+.footer-area ul li a:hover,
+.footer-area ul li a:focus {
+}
+
+
+}
+
+
+
+/* #na-powered */
+@media all {
+
+@import url(http://fonts.googleapis.com/css?family=Play);
+
+#na-powered {
+font-family: 'Play', sans-serif;
+font-size: 13px;
+}
+#na-powered a {
+color: #bbb;
+text-decoration: none;
+}
+#na-powered a:hover,
+#na-powered a:focus {
+text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.1);
+}
+html.csstransitions #na-powered * {
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+#na-powered a:hover,
+#na-powered a:focus {
+color: #444;
+text-decoration: none;
+}
+#na-powered a .na-namedia-style {
+color: #666;
+}
+#na-powered a:hover .na-namedia-style,
+#na-powered a:focus .na-namedia-style {
+color: #222;
+text-decoration: none;
+}
+#na-powered a .na-namedia-style .na-media-style {
+color: #bbb;
+}
+#na-powered a:hover .na-namedia-style .na-media-style,
+#na-powered a:focus .na-namedia-style .na-media-style {
+color: #069;
+text-decoration: none;
+}
+#na-imprinted {
+font-family: 'Play', sans-serif;
+font-size: 1.05em;
+line-height: 1.05em;
+letter-spacing: 1px;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+#na-imprinted a {
+color: #666;
+text-decoration: none;
+}
+#na-imprinted a:hover,
+#na-imprinted a:focus {
+}
+#na-imprinted a:hover,
+#na-imprinted a:focus {
+color: #000;
+text-decoration: none;
+}
+#na-imprinted a .na-namedia-style {
+color: #000;
+font-size: 2em;
+letter-spacing: 0;
+text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+#na-imprinted a:hover .na-namedia-style,
+#na-imprinted a:focus .na-namedia-style {
+color: #000;
+text-decoration: none;
+}
+#na-imprinted a .na-namedia-style .na-media-style {
+color: #069;
+}
+#na-imprinted a:hover .na-namedia-style .na-media-style,
+#na-imprinted a:focus .na-namedia-style .na-media-style {
+color: #069;
+text-decoration: none;
+}
+}
+
+
+/* footer-companies */
+@media all {
+
+.footer-companies {
+margin: 1.5em 0;
+}
+.footer-companies ul {
+list-style-type: none;
+}
+.footer-companies ul li {
+float: left;
+width: 100px;
+height: 100px;
+margin: 0.25em;
+}
+.footer-companies ul li img {
+max-width: 100px;
+max-height: 100px;
+}
+
+}
+/* .footer-area */
+@media all {
+
+.footer-area {
+margin-bottom: 200px;
+}
+.footer-area ul {
+list-style: none;
+text-align: center;
+margin: 0;
+font-size: 1.2em;
+}
+.footer-area ul li {
+display: inline-block;
+}
+.footer-area ul li a {
+padding: 0 1em;
+line-height: 49px;
+border-right: 2px solid #525252;
+color: #525252;
+}
+.footer-area ul li.last a {
+border-right:none;
+}
+.footer-area ul li a:hover,
+.footer-area ul li a:focus {
+text-decoration: none;
+}
+.bodybottomfooter {
+position: absolute;
+bottom: 0;
+z-index: -1;
+width: 100%;
+height: 299px;
+background: transparent url(img/bottom-wave.png) no-repeat;
+background-position: bottom center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+}
+@media (min-width: 768px) and (max-width: 979px) { 
+.footer-area {
+margin-bottom: 120px;
+}
+.bodybottomfooter {
+height: 200px;
+}
+}
+@media (max-width: 767px) { 
+.footer-area {
+margin-bottom: 95px;
+}
+.bodybottomfooter {
+height: 150px;
+}
+}
+@media (max-width: 480px) { 
+.footer-area {
+margin-bottom: 60px;
+}
+.bodybottomfooter {
+height: 100px;
+}
+}
+
+/* wpcf7-form */
+@media all {
+
+.wpcf7-form {
+}
+.wpcf7-form p {
+margin: 0;
+}
+
+
+}
+
+
+
+
+
+
