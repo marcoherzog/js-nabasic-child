@@ -230,7 +230,7 @@ z-index: -1;
 width: 100%;
 height: 299px;
 background: transparent url(img/bottom-wave.png) no-repeat;
-background-position: bottom center;
+background-position: top center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -274,9 +274,3 @@ margin: 0;
 
 
 }
-
-
-
-
-
-

@@ -111,4 +111,4 @@ endif;
 
           </div><?php // .na-column23 ?>
           
-<?php get_footer(); ?>
+<?php get_footer(); ?>text to be appended
