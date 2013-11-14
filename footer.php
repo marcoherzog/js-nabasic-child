@@ -95,4 +95,4 @@
     <?php wp_footer(); ?>
 
   </body>
-</html>text to be appended
+</html>

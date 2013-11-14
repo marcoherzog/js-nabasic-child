@@ -27,7 +27,7 @@ get_header(); ?>
 
 
                     <section>
-                      <h1>Kommende Job-Shuttles</h1>
+                      <h1>Unsere nächsten Job-Shuttles:</h1>
                       
                       <?php
                       $today6am = strtotime('today 6:00') + ( get_option( 'gmt_offset' ) * 3600 );
@@ -116,4 +116,4 @@ get_header(); ?>
 
           </div><?php // .na-column23 ?>
           
-<?php get_footer(); ?>text to be appended
+<?php get_footer(); ?>
