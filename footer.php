@@ -29,7 +29,7 @@
                           $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
                           //echo $large_image_url[0];
                         ?>
-                       	<img alt="<?php the_title(); ?>" src="<?php echo $large_image_url[0]; ?>" title="<?php the_title(); ?>">
+                       	<a data-toggle="tooltip" title="<?php the_title(); ?>" href="<?php echo getLink(1); ?>" target="_blank" rel="bookmark" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" src="<?php echo $large_image_url[0]; ?>" title="<?php the_title(); ?>"></a>
                       <?php endif; ?>
                     </li>
                   <?php endwhile; ?>
